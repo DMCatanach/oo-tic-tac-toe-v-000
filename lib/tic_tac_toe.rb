@@ -25,11 +25,14 @@ class TicTacToe
 
   def input_to_index
     #code
-  end 
+  end
 
-  def position_taken? 
+  def position_taken?
+    #code
+  end
+
+  def valid_move? 
     #code 
   end 
-  
 
 end
