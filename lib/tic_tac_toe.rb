@@ -70,7 +70,7 @@ class TicTacToe
   end
 
   def draw?
-    full? && !won? 
+    full? && !won?
   end
 
   def over?
@@ -78,7 +78,9 @@ class TicTacToe
   end
 
   def winner
-    #code
+    if won? 
+      @board[won?[0]]
+    end
   end
 
 end
