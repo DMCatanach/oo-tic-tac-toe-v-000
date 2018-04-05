@@ -26,9 +26,9 @@ class TicTacToe
   def input_to_index
     #code
   end
-  
-  def move 
-    #code 
+
+  def move
+    #code
   end 
 
   def position_taken?
@@ -37,6 +37,10 @@ class TicTacToe
 
   def valid_move?
     #code
+  end
+
+  def turn_count 
+    #code 
   end 
 
 end
