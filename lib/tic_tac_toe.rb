@@ -57,9 +57,13 @@ class TicTacToe
 
   def full?
     #code
+  end
+
+  def draw?
+    #code
   end 
 
-  def draw? 
+  def over? 
     #code 
   end 
 
