@@ -53,9 +53,13 @@ class TicTacToe
 
   def won?
     #code
+  end
+
+  def full?
+    #code
   end 
 
-  def full? 
+  def draw? 
     #code 
   end 
 
