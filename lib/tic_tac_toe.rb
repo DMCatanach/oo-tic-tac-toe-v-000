@@ -29,7 +29,7 @@ class TicTacToe
 
   def move
     #code
-  end 
+  end
 
   def position_taken?
     #code
@@ -39,8 +39,12 @@ class TicTacToe
     #code
   end
 
-  def turn_count 
-    #code 
+  def turn_count
+    #code
+  end
+
+  def current_player
+    #code
   end 
 
 end
