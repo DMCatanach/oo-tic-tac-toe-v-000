@@ -49,9 +49,13 @@ class TicTacToe
 
   def turn
     #code
+  end
+
+  def won?
+    #code
   end 
 
-  def won? 
+  def full? 
     #code 
   end 
 
