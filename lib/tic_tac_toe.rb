@@ -27,8 +27,8 @@ class TicTacToe
     user_input.to_i - 1
   end
 
-  def move
-    #code
+  def move(index, player_token)
+    @board[index] = player_token
   end
 
   def position_taken?
@@ -69,6 +69,6 @@ class TicTacToe
 
   def winner
     #code
-  end 
+  end
 
 end
