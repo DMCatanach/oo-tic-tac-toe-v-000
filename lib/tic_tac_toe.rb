@@ -74,7 +74,7 @@ class TicTacToe
   end
 
   def over?
-    #code
+    won? || draw? 
   end
 
   def winner
