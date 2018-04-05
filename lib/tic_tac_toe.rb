@@ -23,8 +23,8 @@ class TicTacToe
     puts " #{@board[6]} | #{@board[7]} | #{@board[8]} "
   end
 
-  def input_to_index
-    #code
+  def input_to_index(user_input)
+    user_input.to_i - 1
   end
 
   def move
@@ -65,10 +65,10 @@ class TicTacToe
 
   def over?
     #code
-  end 
+  end
 
-  def winner 
-    #code 
+  def winner
+    #code
   end 
 
 end
