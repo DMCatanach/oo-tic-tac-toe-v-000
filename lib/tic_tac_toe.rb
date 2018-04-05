@@ -47,4 +47,8 @@ class TicTacToe
     #code
   end 
 
+  def turn 
+    #code 
+  end 
+
 end
