@@ -45,9 +45,13 @@ class TicTacToe
 
   def current_player
     #code
+  end
+
+  def turn
+    #code
   end 
 
-  def turn 
+  def won? 
     #code 
   end 
 
